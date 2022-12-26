@@ -2,9 +2,9 @@
     "routes":[
         {
             "src":"/",
-            "dest":"/routes/userRoutes.js"
+            "dest":"/routes"
         },{
-            "src":"/routes/userRoutes.js",
+            "src":"/routes",
             "methods":[
                 "POST",
                 "GET"
