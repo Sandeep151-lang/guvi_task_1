@@ -9,7 +9,7 @@
                 "POST",
                 "GET"
             ],
-            "dest":"/routes/userRoutes.js"
+            "dest":"/routes"
         }
     ]
 }
