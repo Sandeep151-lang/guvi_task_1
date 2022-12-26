@@ -26,4 +26,4 @@ app.use('/',(req,res)=>{
   res.send({message: 'res is working '})
 })
 
-// app.use('/',indexRouter)
+ app.use('/api',indexRouter)
