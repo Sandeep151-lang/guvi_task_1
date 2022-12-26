@@ -4,7 +4,7 @@
             "src":"/",
             "dest":"/routes/userRoutes.js"
         },{
-            "src":"/routes/userRoutes.js",
+            "src":"/",
             "methods":[
                 "POST",
                 "GET"
