@@ -22,8 +22,8 @@ app.listen(PORT,()=>{
 
 require('./routes/dbconn/conn')
 
-app.use('/',(req,res)=>{
-  res.send({message: 'res is working '})
-})
+// app.use('/',(req,res)=>{
+//   res.send({message: 'res is working '})
+// })
 
- app.use('/api',indexRouter)
+ app.use('/',indexRouter)
