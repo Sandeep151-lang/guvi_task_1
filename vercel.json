@@ -11,14 +11,14 @@
     "routes":[
         {
             "src":"/",
-            "dest":"/routes/userRoutes.js"
+            "dest":"/routes"
         },{
-            "src":"/routes/userRoutes.js",
+            "src":"/",
             "methods":[
                 "POST",
                 "GET"
             ],
-            "dest":"/routes/userRoutes.js"
+            "dest":"/routes"
         }
     ]
 }
