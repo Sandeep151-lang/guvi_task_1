@@ -1,10 +1,11 @@
 {
    "version": 2,
-   "name": "guvi_task_backend",
-   "builds": [
-      { "src": "index.js", "use": "@vercel/node" }
-   ],
+   "name": "guvi_task",
+   "builds": [{
+  "src": "./index.js",
+  "use": "@now/node-server"
+}],
    "routes": [
-      { "src": "/(.*)", "dest": "/routes/userRoutes.js" }
+      { "src": "/(.*)", "dest": "/index.js" }
    ]
 }
